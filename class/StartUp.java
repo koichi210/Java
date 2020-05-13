@@ -5,7 +5,10 @@ public class Sample
     Calendar date = Calendar.getInstance();
     Action signal = null;
     String greeting = "Hello";
-    int value = 123"";
+    char ch = "A";
+    int value = 123;
+    double dbl = 12.345;
+    boolean flg = true;
     enum Action {BLUE, YELLOW, RED};
 }
 
